@@ -1,0 +1,551 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    letter-spacing: 5px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+
+h4 {
+    color: auto;
+    font-size: 20px;
+    margin: 0px;
+}
+
+h5 {
+    font-weight: bold;
+    color: auto;
+    font-size: 16px;
+    margin: 0px;
+}
+
+hr {
+    border-color: inherit;
+}
+
+
+/* Jim's additions--this is what I'm going for */
+.jyimage {
+  list-style-image:url("https://zacharyandjameslaw.com/img/jyimage.jpg");
+  list-style-position: inside;
+}
+
+.topnav {
+    font-size: 16px;
+    background-color: none;
+    border: none;
+}
+
+
+/*.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}*/
+
+.lead {
+    font-size:16px;
+    font-weight: 400;
+    color: black;
+    text-transform: capitalize;
+}
+
+.intro-header {
+    padding-top: 10px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/path.jpg) no-repeat center center;
+    opacity: 80%;
+    background-size:cover;
+    text-shadow: 3px 1px 1px rgba(0,0,0,.7);
+}
+
+.intro-header a:link, a:visited {
+  color: white;
+}
+
+a, a:visited {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.about-intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    opacity: 80%;
+    background-size: cover;
+    border: none;
+}
+
+.well {
+	background-color: rgba(4, 20, 30, 0.01);
+	border: none;
+    margin-bottom: 0px;
+}
+
+.well-lg {
+    padding-top: 24px;
+}
+
+.intro-message {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    padding-top: 4%;
+    padding-bottom: none;
+    color: inherit;
+}
+
+.intro-message  h1 {
+    margin: 0;
+    font-size: 4em;
+}
+
+.intro-message2 {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin-top: 30px;
+    text-shadow: 3px 1px 1px rgba(0,0,0,1);
+
+}
+
+.ooo{
+    color: gold;
+    font-weight: 700;
+    background: RGBA(4, 20, 35, 0.40);
+    border-radius: 10px;
+}
+
+.logo {
+    max-width: 100px;
+    padding-top: 30px;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.headshot {
+    max-height: 300px;
+    margin-top: 30px;
+}
+
+.content-section-c {
+    color: #f8f8f8;
+    background-color:#272d25;
+    opacity: 80%;
+    background-size:cover;
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.about-lead {
+    text-align: center;
+    padding: 10px;
+}
+
+.well2 {
+    background-color: rgba(4, 20, 30, 0.95);
+}
+
+.content-section-a {
+    padding: 50px 0;
+    color: black;
+    background-color:#e2e2e2;
+}
+
+.left-col {
+  text-align: center;
+}
+
+.prac {
+text-align: justify;
+}
+
+.prac-grid {
+    text-align:justify;
+    padding: 40px;
+    border-radius: 10px;
+    border-right: white;
+}
+
+.grid-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    background-color:#acad94;
+    color: #272d25;
+}
+
+.section-heading {
+    margin-top: none;
+}
+
+.section-heading h1,
+h2,
+h3,
+{
+   font-family: 'Raleway', sans-serif;
+
+    /*font-weight: 500;*/
+    font-size: 1.5em;
+    margin-top: auto;
+}
+
+.sub-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 3px;
+}
+
+.social {
+  max-height: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+
+.content-section-d {
+    color: #f8f8f8;
+    background: url(../img/path.jpg) no-repeat center center;
+    opacity: 80%;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.content-section-e {
+    color: #f8f8f8;
+    background-color:#272d25;
+    opacity: 80%;
+    background-size:cover;
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.footer-img-container {
+   text-align: center;
+}
+
+.footer-img {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 60%;
+}
+
+.well3 {
+    background-color: #acad94;
+    background-size: cover;
+    margin: 50px;
+    color: #272d25;
+}
+
+.links {
+    list-style-position: inside;
+    padding-left:0;
+}
+
+footer {
+    padding: 5%;
+    padding-top: 2%;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+.emailus {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: none;
+}
+
+.fee-header {
+    font-size: 1.3em;;
+    text-align: center;
+    line-height: 150%;
+}
+
+.blog-header {
+    background: url(../img/path.jpg) no-repeat center center;
+    background-size: cover;
+    color: black;
+}
+
+.blog-header-title {
+    padding: 30px;
+}
+
+.blog-header h1 {
+    font-size: 3em;
+}
+
+.logo-blog {
+    max-width: 100px;
+}
+
+.post-title {
+    margin-top: 0px;
+}
+
+.post-preview a {
+    text-decoration: none;
+}
+
+.post-preview {
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.headshot-small {
+    text-align: right;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.post-meta {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.entrance {
+    max-height: 400px;
+}
+
+.elevator {
+    max-height: 400px;
+}
+
+.westentrance {
+    max-height: 400px;
+}
+
+.jim-img {
+    max-width: 75%;
+}
+
+/* Jim's additions */
+
+.padded-table td, .padded-table th {
+    padding: 10px;
+}
+.text-bold {
+  font-weight:bold;
+}
+
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid #272d25;
+}
+
+/* Jim's addition 2/7/2017 */
+blockquote {
+    font-size:inherit;
+    border: none;
+}
+
+
+/* These are for footnotes */
+/* http://hiphoff.com/creating-hover-over-footnotes-with-bootstrap */
+body {
+    counter-reset: footnotecounter;
+}
+
+span.footnote:before {
+    counter-increment: footnotecounter;
+    content: counter(footnotecounter);
+     position: relative;
+      top: -0.4em;
+}
+
+span.footnote {
+     color: #333;
+        font-size: 80%;
+}
+
+.plead {
+    font-weight:bold;
+}
+/* end */
+
+/*MEDIA QUERIES*/
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 990px) {
+
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+  .well-lg {
+      padding-top: 36px;
+  }
+  .headshot-small {
+      text-align: left;
+  }
+  h2 {
+      font-size: 75%;
+  }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-message {
+/*        padding-bottom: 15%;*/
+    }
+
+    .intro-message h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+
+    .logo {
+    max-width: 100px;
+    }
+
+    .headshot-small {
+    text-align: left;
+    }
+
+    h2 {
+      font-size: 75%;
+    }
+
+/*
+    .content-section-e {
+    padding: 100px;
+    }
+*/
+}
+
+/*
+@media(max-width:560px) {
+    .content-section-e {
+    padding: 50px;
+    }
+*/
+}
+
